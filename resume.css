@@ -1,0 +1,115 @@
+.resume h1 {
+	color: #ff884d;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links p{
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 5px;
+	text-align: center;
+}
+
+.container {
+	padding-top: 3px;
+}
+
+a:link {
+	color: #5bd7d7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #5bd7d7;
+	text-decoration: none;
+} 
+
+a:hover {
+	color: #b3b3ff;
+	text-decoration: none;
+}
+
+
+/*a:active {
+	color: e6ffff;
+	text-decoration: underline;
+}*/
+
+.header_box {
+	float: left;
+	width: 300px;
+	height: 80px;
+	padding-left: 195px;
+	font-size: 30px;
+	padding-bottom: 30px;
+	color: #5bd7d7;
+	position: relative;
+}
+
+.textbox {
+	max-width: 580px;
+	height: 80px;
+	display: table;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px;
+	padding-top: 10px;
+	margin: 2px;
+	color: #5bd7d7;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: normal;
+	padding: 0px;
+	margin: 2px;
+	color: #595959;
+}
+
+h4 {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: normal;
+	padding: 0px;
+	margin: 2px;
+	color: #595959;
+}
+
+.table {
+	table-layout: fixed;
+	text-align: left;
+}
+
+
+.contact h1{
+	font-size: 30px;
+	text-align: center;
+	color: #ff884d;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+.email p{
+	font-size: 20px;
+	text-align: center;
+	color: #6699ff;
+	padding-top:0px;
+}
