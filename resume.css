@@ -19,6 +19,7 @@ body {
 	font-size: 15px;
 	line-height: 5px;
 	text-align: center;
+	padding-left: 0.5%;
 }
 
 .container {
@@ -41,16 +42,16 @@ a:hover {
 }
 
 
-/*a:active {
+a:active {
 	color: e6ffff;
 	text-decoration: underline;
-}*/
+}
 
 .header_box {
 	float: left;
-	width: 300px;
+	width: 20%;
 	height: 80px;
-	padding-left: 195px;
+	padding-left: 25%;
 	font-size: 30px;
 	padding-bottom: 30px;
 	color: #5bd7d7;
@@ -58,10 +59,10 @@ a:hover {
 }
 
 .textbox {
-	max-width: 580px;
+	max-width: 500px;
 	height: 80px;
 	display: table;
-	padding-left: 20px;
+	padding-left: 2%;
 	padding-bottom: 30px;
 	position: relative;
 }
@@ -92,10 +93,6 @@ h4 {
 	color: #595959;
 }
 
-.table {
-	table-layout: fixed;
-	text-align: left;
-}
 
 
 .contact h1{
