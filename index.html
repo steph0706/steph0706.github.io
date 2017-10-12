@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Stephanie Wong</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script>
+        function transition(input) {
+            var h = $("#nav").height() + 35;
+            if (input == "#contact") {
+                $('html, body').animate({
+                    scrollTop: $(document).height()
+                }, 500);
+            } else {
+                var off = $(input).offset().top - h;
+                    $('html, body').animate({
+                        scrollTop: off
+                    }, 500);
+            }
+
+
+        }
+
+        function redirect(type) {
+            if (type === "linkedin") {
+                var win = window.open("https://www.linkedin.com/in/swong02/", '_blank');
+            } else if (type === "github") {
+                var win = window.open("https://github.com/steph0706/", '_blank');
+            } else if (type === "email") {
+                window.location.href = "mailto:steph.wong.97@gmail.com";
+            }
+        }
+
+    </script>
+
+    <body data-spy="scroll" data-target="#navbar">
+        <div class=outside>
+            <div class=parent>
+                <div class=navbar>
+                    <h1 id="nav">STEPHANIE WONG</h1>
+                </div>
+            </div>
+            <div class="col-md-3 scrollspy" id="navbar">
+                <ul id="nav1" class="nav affix-top" data-spy="affix">
+                    <li class="active">About me</li>
+                    <li>
+                        Education
+                    </li>
+                    <li>
+                        Relevant Courses
+                    </li>
+                    <li>
+                       Skills
+                    </li>
+                    <li>
+                        Experience
+                    </li>
+                    <li>
+                        Projects
+                    </li>
+                    <li>
+                        Contact me
+                    </li>
+                </ul>
+            </div>
+
+            <div class=wrapper>
+                    <img src="self-01.png" />
+            </div>
+            <div class="bio">
+                <p></p>
+                    <h2>I'm a developer and a designer</h2>
+
+                    <h3>going to Tufts University, studying Computer Science</h3>
+                    <h4> expected to graduate May 2019</h4>
+                <p></p>
+                <div class="icons">
+                    <img src="edu.png" class="icon" onclick="transition('#education')"/>
+                    <img src="courses.png" class="icon" onclick="transition('#course')"/>
+                    <img src="code.png" class="icon" onclick="transition('#skills')"/>
+                    <img src="comp.png" class="icon" onclick="transition('#experience')"/>
+                    <img src="projects.png" class="icon" onclick="transition('#projects')"/>
+                    <img src="contact.png" class="icon" onclick="transition('#contact')"/>
+
+
+                </div>
+                <p></p>
+            </div>
+
+            <div id="education">
+                <p></p>
+                <h2 class=title>EDUCATION</h2>
+                <div class=container>
+                    <h3 class=school>TUFTS UNIVERSITY</h3>
+                    <div class=itemBox>
+                        <h4 class=info>SEP 2015 - MAY 2019</h4>
+                        <h4 class=info>BACHELOR OF SCIENCE</h4>
+                        <h4 class=info>COMPUTER SCIENCE </h4>
+                        <h5 class=info>3.83 GPA</h5>
+                    </div>
+                </div>
+                <p></p>
+                <div class=container>
+                    <h3 class=school>WESTERN ACADEMY <br/>OF BEIJING</h3>
+                    <div class=itemBox>
+                        <h4 class=info>AUG 2002 - MAY 2015</h4>
+                        <h4 class=info>IB DIPLOMA</h4>
+                    </div>
+                </div>
+                <p> </p>
+            </div>
+
+            <div id="course">
+                <p></p>
+                <h2 class=title>RELEVENT COURSES</h2>
+                <div class=container>
+                    <div class=itemBox>
+                        <h4 class=classes>Machine Structure and Assembly Language Programming <br />
+                            Data Structures | Web Programming | Discrete Math<br />
+                            Data Visualizations | Algorithms | Engineering Psychology<br />
+                            Intro to Engineering Psychology and Ergonomics </h4>
+                    </div>
+                </div>
+                <p></p>
+
+            </div>
+
+
+            <div id="skills">
+                <p></p>
+                <h2 class=title>SKILLS</h2>
+                <div class=container>
+                    <h3 class=skillLabel>DEVELOPMENT&nbsp</h3>
+                    <div class=itemBox>
+                        <h4 class=skillItem>HTML | CSS | JAVASCRIPT </h4>
+                        <h4 class=skillItem>C | C++ | PYTHON | JAVA</h4>
+                    </div>
+                </div>
+                <p></p>
+                <div class=container>
+                    <h3 class=skillLabel>TECHNOLOGIES</h3>
+                    <div class=itemBox>
+                    <h4 class=skillItem>ANDROID SDK | REACT NATIVE </h4>
+                    <h4 class=skillItem>ILLUSTRATOR | PHOTOSHOP</h4>
+                    <h4 class=skillItem> GIT | MATLAB </h4>
+                    </div>
+                </div>
+                <p></p>
+                <div class=container>
+                    <h3 class=skillLabel>LANGUAGES&nbsp&nbsp</h3>
+                    <div class=itemBox>
+                        <h4 class=skillItem>ENGLISH | MANDARIN | CANTONESE </h4>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+
+            <div id="experience">
+                <p></p>
+                <h2 class=title>EXPERIENCE</h2>
+                <div class=container>
+                    <h3 class=company>QUALICOM INNOVATIONS</h3>
+                    <div class=detailBox>
+                        <h4 class=detail>SOFTWARE ENGINEER</h4>
+                        <h5 class=detail>JUNE 2017 - AUGUST 2017</h5>
+                        <h5 class=detail>
+                            - Developed an Android application for the client
+                            Loyalty Management System to interact with a backend
+                            server using HTTP Rest methods <br /><br />
+                            - Built the payment system for the end-user
+                            Membership App using Stripe API and ReactJS
+                        </h5>
+                    </div>
+                </div>
+                <p></p>
+                <div class=container>
+                    <h3 class=company>HUMAN COMPUTER <br/>INTERACTION LAB,
+                        <br/>TUFTS UNIVERSITY</h3>
+                    <div class=detailBox>
+                        <h4 class=detail>RESEARCH ASSISTANT</h4>
+                        <h5 class=detail>SEPT 2017 - PRESENT</h5>
+                        <h5 class=detail>
+                            - Integrate a brain-computer interface system with
+                            one that increases readability for users, to make
+                            automatic adjustments for users based on the detected workload
+                            <br /><br />
+                            - Build and creating an interactive interface for
+                            data collection, and linking the two systems together
+                        </h5>
+                    </div>
+                </div>
+                <p></p>
+                <div class=container>
+                    <h3 class=company>JUMBOCODE</h3>
+                    <div class=detailBox>
+                        <h4 class=detail>FRONT-END WEB DEVELOPER</h4>
+                        <h5 class=detail>SEPT 2017 - PRESENT</h5>
+                        <h5 class=detail>
+                            - Collaborate with others on project for the Boston
+                             Institute for Nonprofit Journalism
+                             <br /><br />
+                             - Build a story map website with Google Maps API,
+                             Flexbox, and Firebase
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+                <div class=container>
+                    <h3 class=company>TUFTS DINING SERVICE</h3>
+                    <div class=detailBox>
+                        <h4 class=detail>GRAPHIC DESIGNER</h4>
+                        <h5 class=detail>SEPT 2016 - PRESENT</h5>
+                        <h5 class=detail>
+                            - Designed posters, and signs for the dining halls
+                            to maintain brand identity and attract customers.
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+                <div class=container>
+                    <h3 class=company>BRAV CONFLICT<br /> MANAGEMENT</h3>
+                    <div class=detailBox>
+                        <h4 class=detail>REMOTE GRAPHIC DESIGNER</h4>
+                        <h5 class=detail>MARCH 2016 - SEPT 2016</h5>
+                        <h5 class=detail>
+                            - Designed brochures, infographics and, posters
+                            and helped with the branding of the company.
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+            </div>
+
+
+
+            <div id="projects">
+                <p></p>
+                <h2 class=title>PROJECTS</h2>
+                <div class=container>
+                    <h3 class=company>QUALICOM LOYALTY <br /> MANAGEMENT SYSTEM</h3>
+                    <div class=detailBox>
+                        <h5 class=detail>2017</h5>
+                        <h5 class=detail>
+                            Built an Android application as an complement for
+                            the end-user Loyalty Membership Application for
+                            clients to use to manage customers memberships.
+                            Used Java and React Native to interact with back-end
+                            and a POS system.
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+                <div class=container>
+                    <h3 class=company>AUDIOWNED</h3>
+                    <div class=detailBox>
+                        <h5 class=detail>2017</h5>
+                        <h5 class=detail>
+                            Collaborated and built a web-based game to guess a song’s title and
+                            artist from a choice of 4. Used Spotify API, Heroku,
+                            MongoDB, Bootstrap.
+                            <br />Web app can be accessed by: https://audiowned.herokuapp.com
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+                <div class=container>
+                    <h3 class=company>PPM IMAGE COMPRESSOR</h3>
+                    <div class=detailBox>
+                        <h5 class=detail>2017</h5>
+                        <h5 class=detail>
+                            Designed and built an image compression and
+                            decompression program in C - implementation included
+                             an unblocked 2D array, function pointers and
+                             bitwise shifting.
+                        </h5>
+                    </div>
+                </div>
+                <p> </p>
+            </div>
+
+            <div id="contact">
+                <p></p>
+                <h2 class=title>CONTACT ME</h2>
+                <div class=container>
+                    <div class=itemBox>
+                        <br />
+                        <div class="icons">
+                            <img src="email.png" class="icon" onclick="redirect('email')"/>
+                            <img src="linkedin.png" class="icon" onclick="redirect('linkedin')"/>
+                            <img src="github.png" class="icon" onclick="redirect('github')"/>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+
+            </div>
+        </div>
+
+    </body>
+</html>
