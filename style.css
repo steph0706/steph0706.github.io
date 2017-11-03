@@ -189,7 +189,8 @@ h4 {
 }
 
 
-@media only screen and (min-width: 640px) and (max-device-width: 736px) and (min-device-width : 320px) {
+@media only screen and (min-width: 640px) 
+    and (max-device-width: 736px) and (min-device-width : 414px) {
     .container {
         display: flex;
         flex-direction: row;
