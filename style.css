@@ -288,7 +288,7 @@ h4 {
 
 
 @media only screen and (max-width: 640px),  
-    only screen (max-device-width: 736px){
+    only screen (max-device-width: 800px){
     .container {
         display: flex;
         flex-direction: column;
