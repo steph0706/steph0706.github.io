@@ -1,12 +1,10 @@
-/* Some code below is taken from Professor Chow's example here (https://github.com/tuftsdev/WebProgramming/blob/gh-pages/examples/google_maps/geolocation_map_style.css) */
-
 html {
-	height: 100%;
-	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    height: 100%;
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-	height: 100%;
+    height: 100%;
 }
 
 .outside {
@@ -73,37 +71,7 @@ h2, h3 {
     margin: 1%;
 }
 
-.skillLabel {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-left: 15%;
-    flex-grow: 10;
-    text-align: left;
-}
 
-
-.skillItem {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-right: 25%;
-    text-align: right;
-    line-height: 190%;
-}
-
-.itemBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-grow: 4;
-}
 h3 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
@@ -112,6 +80,7 @@ h3 {
     letter-spacing: 2px;
     margin: 0%;
 }
+
 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
@@ -154,12 +123,7 @@ h4 {
     color: #272930;
 }
 
-.icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .icon {
     width: 5%;
@@ -174,37 +138,6 @@ h4 {
     opacity: 0.7
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.school {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-left: 12%;
-    flex-grow: 10;
-    text-align: left;
-    font-size: 150%;
-}
-
-.info {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-right: 30%;
-    text-align: right;
-}
 
 #experience {
     display: flex;
@@ -215,39 +148,6 @@ h4 {
     margin-top: 0.5%;
 }
 
-.company {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-left: 12%;
-    flex-grow: 10;
-    text-align: left;
-    font-size: 150%;
-}
-
-.detail {
-    font-family: "Source code pro", serif;
-    text-align: center;
-    font-weight:normal;
-    color: #ffffff;
-    letter-spacing: 2px;
-    margin: 1%;
-    margin-right: 10%;
-    text-align: right;
-}
-
-.detailBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-wrap: wrap;
-    width: 45%;
-}
 
 #course {
     display: flex;
@@ -287,3 +187,204 @@ h4 {
   top: 300px;
   width: 213px;
 }
+
+
+@media only screen and (min-width: 640px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .school {
+        font-family: "Source code pro", serif;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-left: 12%;
+        flex-grow: 10;
+        text-align: left;
+        font-size: 150%;
+    }
+    .itemBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-grow: 4;
+    }
+    .info {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-right: 30%;
+        text-align: right;
+    }
+    .skillLabel {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-left: 15%;
+        flex-grow: 10;
+        text-align: left;
+    }
+    .skillItem {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-right: 25%;
+        text-align: right;
+        line-height: 190%;
+    }
+    .company {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-left: 12%;
+        flex-grow: 10;
+        text-align: left;
+        font-size: 150%;
+    }
+    .detail {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        margin-right: 10%;
+        text-align: right;
+    }
+
+    .detailBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+        width: 45%;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 640px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .school {
+        font-family: "Source code pro", serif;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-left: 12%;*/
+        flex-grow: 10;
+        text-align: center;
+        font-size: 150%;
+    }
+    .itemBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-center;
+        flex-grow: 4;
+        text-align: center;
+    }
+    .info {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-right: 30%;*/
+    }
+    .skillLabel {
+        font-family: "Source code pro", serif;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-left: 15%;*/
+        flex-grow: 10;
+        text-align: center;
+    }
+    .skillItem {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-right: 25%;*/
+        text-align: center;
+        line-height: 190%;
+    }
+    .company {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-left: 12%;*/
+        flex-grow: 10;
+        font-size: 150%;
+    }
+    .detail {
+        font-family: "Source code pro", serif;
+        text-align: center;
+        font-weight:normal;
+        color: #ffffff;
+        letter-spacing: 2px;
+        margin: 1%;
+        /*margin-right: 10%;*/
+    }
+    .detailBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-center;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+
+        justify-content: space-between;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
