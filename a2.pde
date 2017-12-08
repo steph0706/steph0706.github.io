@@ -410,7 +410,7 @@ class System {
   void drawLabel(Node n) {
     float padding = 3;
     String mass = "Mass: " + (String.valueOf)(n.mass);
-    String id = "ID: " + String.valueOf(n.id);
+    String id = "ID: " + (n.id);
     float textW = max(textWidth(mass), textWidth(id)) + 2 * padding;
     float boxH = 2 * (textAscent() + textDescent() + 2 * padding);
     float boxX = mouseX;

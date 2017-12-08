@@ -3,6 +3,9 @@ html {
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
+canvas {
+    align-items: center;
+}
 body {
     height: 100%;
 }
@@ -91,7 +94,7 @@ h1 {
 
 }
 
-h4 {
+.h4 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     text-align: center;
@@ -99,6 +102,18 @@ h4 {
     letter-spacing: 2px;
     margin: 1%;
 }
+
+#descrip {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #272930;
+    letter-spacing: 1px;
+    margin: 1%;
+    line-height: 90%;
+}
+
+
 
 #skills {
     display: flex;
@@ -189,7 +204,18 @@ h4 {
 }
 
 
+
+
 @media only screen and (min-width: 640px) {
+    .descrip {
+        font-family: "Roboto", sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        color: #272930;
+        letter-spacing: 1px;
+        margin: 1%;
+    }   
+
     .container {
         display: flex;
         flex-direction: row;
@@ -484,6 +510,8 @@ h4 {
         flex-wrap: wrap;
     }
 }
+
+
 
 
 

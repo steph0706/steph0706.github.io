@@ -218,8 +218,8 @@ void onResize() {
 void drawLabelBox() {
   Rectangle over = canvas.whichOver();
   if (over == null) return;
-  String idstr = "id: " + String.valueOf(over.node.id);
-  String wgtstr = "weight: " + String.valueOf(over.node.value);
+  String idstr = "id: " + (over.node.id);
+  String wgtstr = "weight: " + (over.node.value);
   float padding = 2 * FRAME;
   float boxW = max(textWidth(idstr), textWidth(wgtstr)) + 2 * padding;
   float boxH = 2 * (textAscent() + textDescent() + padding);
@@ -448,7 +448,7 @@ class Rectangle {
     // label
     if (this.children.size() <= 0) {
       fill(color(0, 0, 0));
-      String id = String.valueOf(this.node.id);
+      String id = (this.node.id);
       text(id, absX + (absW - textWidth(id)) / 2, absY + absH / 2);
     }
     
