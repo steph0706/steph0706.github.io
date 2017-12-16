@@ -1,0 +1,42 @@
+{
+  "nodes" : [
+    {"color": "#17a5a3", "name": "Other Language Families"},
+    {"color": "#17a5a3", "name": "Sino-Tibetan"},
+    {"color": "#17a5a3", "name": "Indo-European"},
+    {"color": "#17a5a3", "name": "Japonic"},
+    {"color": "#17a5a3", "name": "Afro-Asiatic"},
+    {"color": "#17a5a3", "name": "Mandarin"},
+    {"color": "#17a5a3", "name": "Spanish"},
+    {"color": "#17a5a3", "name": "English"},
+    {"color": "#17a5a3", "name": "Hindi"},
+    {"color": "#17a5a3", "name": "Arabic"},
+    {"color": "#17a5a3", "name": "Portuguese"},
+    {"color": "#17a5a3", "name": "Bengali"},
+    {"color": "#17a5a3", "name": "Russian"},
+    {"color": "#17a5a3", "name": "Japanese"},
+    {"color": "#17a5a3", "name": "Punjabi"},
+    {"color": "#17a5a3", "name": "Other Languages"},
+    {"color": "#17a5a3", "name": "World Population"}
+  ],
+"links" : [
+  {"opacity": 1, "source": 1, "target": 5, "value": 889000000, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 2, "target": 6, "value": 436667750, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 2, "target": 7, "value": 371959910, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 2, "target": 8, "value": 260129750, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 4, "target": 9, "value": 291783650, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 2, "target": 10, "value": 218765470, "color": "#98e2e1"},  
+  {"opacity": 1, "source": 2, "target": 11, "value": 242315050, "color": "#98e2e1"},  
+  {"opacity": 1, "source": 2, "target": 12, "value": 153612510, "color": "#98e2e1"},  
+  {"opacity": 1, "source": 3, "target": 13, "value": 128193360, "color": "#98e2e1"},  
+  {"opacity": 1, "source": 2, "target": 14, "value": 92721700, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 0, "target": 15, "value": 2493129676, "color": "#98e2e1"}, 
+  {"opacity": 1, "source": 16, "target": 1, "value": 1355708295, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 16, "target": 2, "value": 3077112005, "color": "#98e2e1"},   
+  {"opacity": 1, "source": 16, "target": 3, "value": 129204210, "color": "#98e2e1"},    
+  {"opacity": 1, "source": 16, "target": 4, "value": 444845814, "color": "#98e2e1"},    
+  {"opacity": 1, "source": 16, "target": 0, "value": 2493129676, "color": "#98e2e1"},
+  {"opacity": 1, "source": 4, "target": 15, "value": 153062164, "color": "#98e2e1"},
+  {"opacity": 1, "source": 1, "target": 15, "value": 466708295, "color": "#98e2e1"},
+  {"opacity": 1, "source": 2, "target": 15, "value": 1393661565, "color": "#98e2e1"}  
+]
+}

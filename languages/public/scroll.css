@@ -1,0 +1,152 @@
+/* default / demo page */
+    * {
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    body {
+      min-height: 1280px;
+      font-weight: 300;
+      color: #2a2a2a;
+    }
+    
+    
+    h2,
+    h3,
+    h4,
+    a {
+      margin: 0;
+      font-weight: 300;
+    }
+    a,
+    a:visited,
+    a:hover {
+      color: #f30;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+    }
+    #intro {
+      max-width: 40rem;
+      margin: 1rem auto;
+      text-align: center;
+      height: 100vh;
+      align-items: center;
+      text-align: center;
+    }
+    .intro__overline {
+      font-size: 1.4rem;
+    }
+    .intro__hed {
+      font-size: 1.4rem;
+      margin: 1.5rem auto;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      top: 30%;
+      margin: auto;
+      position: relative;
+
+    }
+    .introp {
+      top: 31%;
+      position: relative;
+      text-align: center;
+      margin: auto;
+    }
+
+    #quotePage {
+      height: 100vh;
+      text-align: center;
+    }
+
+    #quote, #author {
+      font-weight: lighter;
+      position: relative;
+      top: 31%;
+      margin: auto;
+    }
+
+    #closer {
+      max-width: 42rem;
+      margin: 1rem auto;
+      height: 100vh;
+      text-align: center;
+      
+    }
+
+    #closer p {
+      position: relative;
+      top: 31%;
+      text-align: center;
+      margin: auto;
+    }
+
+    .intro__dek {
+      font-size: 1.4rem;
+    }
+
+    #outro, #outro2, #outro1 {
+      height: 200px;
+    }
+    /* scrollama */
+    #scroll, #scroll2, #scroll1{
+      position: relative;
+    }
+    .scroll__graphic, .scroll__graphic1,  .scroll__graphic2{
+      position: -webkit-sticky;
+      position: sticky;
+      float: right;
+      top: 0;
+      right: 2rem;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    #bubblechart {
+      float: right;
+      top: 0;
+      right: 2rem;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+
+
+    }
+    .scroll__graphic p, .scroll__graphic2 p, .scroll__graphic1 p {
+      text-align: center;
+      padding: 1rem;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      height: 60%;
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+    }
+    .scroll__text,.scroll__text2, .scroll__text1 {
+      position: relative;
+      padding: 0 1rem;
+      max-width: 30rem;
+      width: 33%;
+    }
+    .step, .step2, .step1, .nonscrollstep {
+      margin: 0 auto 2rem auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .step p, .step2 p , .step1 p, .nonscrollstep p {
+      position: relative;
+
+      padding: 1rem;
+      padding-left: 2rem;
+      font-size: 16px;
+
+    }

@@ -3,9 +3,15 @@ html {
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
-canvas {
+#process {
+    position: absolute;
+    display: flex;
+    left: 5%;
+    flex-direction: row;
     align-items: center;
 }
+
+
 body {
     height: 100%;
 }
@@ -94,7 +100,7 @@ h1 {
 
 }
 
-.h4 {
+h4 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     text-align: center;

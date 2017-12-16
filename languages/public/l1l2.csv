@@ -1,0 +1,16 @@
+rank,label,language,L1 speakers (s),L2,primary country,total countries
+1,Chinese,Chinese [zho],1284,193,China,37
+2,Spanish,Spanish [spa],437,91,Spain,31
+3,English,English [eng],372,611,United Kingdom,106
+4,Arabic,Arabic [ara],295,132,Saudi Arabia,57
+5,Hindi,Hindi [hin],260,215,India,5
+6,Bengali,Bengali [ben],242,19,Bangladesh,4
+7,Portuguese,Portuguese [por],219,11,Portugal,13
+8,Russian,Russian [rus],154,113,Russian Federation,19
+9,Japanese,Japanese [jpn],128,1,Japan,2
+10,Lahnda,Lahnda [lah],119,0,Pakistan,6
+11,Javanese,Javanese [jav],84,0,Indonesia,3
+12,Korean,Korean [kor],77,0,South Korea,7
+13,German,"German, Standard [deu]",77,115,Germany,27
+14,French,French [fra],76,140,France,53
+15,Telugu,Telugu [tel],74,5,India,2
