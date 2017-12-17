@@ -516,6 +516,21 @@ h4 {
         flex-wrap: wrap;
     }
 }
+.col {
+    margin: 2%;
+}
+
+.portimg {
+    height:30%;
+}
+.portimg:hover {
+    opacity: 0.5;
+}
+
+.caption {
+    font-weight: lighter;
+    text-align: center;
+}
 
 
 
